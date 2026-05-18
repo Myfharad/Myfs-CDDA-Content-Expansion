@@ -1,0 +1,31 @@
+[
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "whiskey",
+    "name": { "str_sp": "whiskey" },
+    "weight": "36 g",
+    "color": "brown",
+    "addiction_type": "alcohol",
+    "stim": -12,
+    "container": "bottle_glass",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": -12,
+    "healthy": -1,
+    "addiction_potential": 5,
+    "description": "A distilled grain alcohol, made from, by, and for real Southern colonels!",
+    "calories": 79,
+    "price": "21 USD",
+    "price_postapoc": "55 USD 75 cent",
+    "//": "Given the comment, presuming we're taking bourbon here 2 USD 50 cent old price.",
+    "material": [ "alcohol" ],
+    "volume": "250 ml",
+    "flags": [ "EATEN_COLD", "NO_AUTO_CONSUME" ],
+    "vitamins": [ [ "ethanol", 16 ] ],
+    "freezing_point": -30,
+    "phase": "liquid",
+    "charges": 7,
+    "fun": 15
+  }
+]

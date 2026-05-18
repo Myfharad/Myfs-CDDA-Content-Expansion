@@ -1,0 +1,10 @@
+[
+  {
+    "result": "teabrick_black",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "30 s",
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "tea_raw", 50 ] ] ]
+  }
+]

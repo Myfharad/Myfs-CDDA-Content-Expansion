@@ -1,0 +1,147 @@
+[
+  {
+    "id": "cig",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "comestible_type": "MED",
+    "name": { "str": "cigarette" },
+    "description": "A mixture of dried tobacco leaf, pesticides, and chemical additives, rolled into a filtered paper tube.  Stimulates mental acuity and reduces appetite.  Highly addictive and hazardous to health, but lung cancer is kind of the least of your concerns at this point.",
+    "weight": "1 g",
+    "volume": "4 ml",
+    "price": "13 cent",
+    "price_postapoc": "1 USD",
+    "symbol": "!",
+    "color": "dark_gray",
+    "container": "box_cigarette",
+    "stim": 1,
+    "healthy": -2,
+    "fun": 5,
+    "addiction_potential": 50,
+    "addiction_type": "nicotine",
+    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE", "NO_TEMP" ],
+    "use_action": [ "SMOKING" ],
+    "variants": [
+      {
+        "id": "cig_basic",
+        "name": { "str": "cigarette" },
+        "description": "A mixture of dried tobacco leaf, pesticides, and chemical additives, rolled into a filtered paper tube.  Stimulates mental acuity and reduces appetite.  Highly addictive and hazardous to health, but lung cancer is kind of the least of your concerns at this point.",
+        "color": "dark_gray"
+      },
+      {
+        "id": "cig_menthol",
+        "name": { "str": "menthol cigarette" },
+        "description": "A cigarette with a menthol flavor, the only type of flavored cigarette permitted for sale in the US.  The FDA had previously proposed a ban on them, but the world ended before it could be implemented.  It feels somewhat nicer to smoke than a regular cigarette.",
+        "color": "cyan"
+      },
+      {
+        "id": "cig_light",
+        "name": { "str": "\"light\" cigarette" },
+        "description": "A cigarette with reduced tar and nicotine content, designed to appeal to quitters and health-conscious smokers.  While not actually less harmful than regular cigarettes, the amount of nicotine absorbed per cigarette is indeed lower.  Marketing cigarettes as \"light\" has been illegal since 2007, but the term has persisted as a shorthand.",
+        "color": "white"
+      },
+      {
+        "id": "cig_gold",
+        "name": { "str": "quality cigarette" },
+        "description": "A premium brand cigarette rolled from strong, high-quality tobacco.  While discerning smokers may prefer its flavor to that of average cigarettes, the higher tar and nicotine content won't do you any favors.  Then again, you probably have bigger concerns than lung cancer.",
+        "color": "yellow"
+      },
+      {
+        "id": "cig_little_cigar",
+        "name": { "str": "little cigar" },
+        "description": "A compact, slim cigar in the form of a cigarette.  It's a popular choice for those who want a taste of luxury without the time commitment of a full-sized cigar.  Addictive and hazardous to health.",
+        "color": "brown"
+      }
+    ]
+  },
+  {
+    "id": "cigar",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "comestible_type": "MED",
+    "name": { "str": "cigar" },
+    "description": "Rolled, cured tobacco leaf, addictive and hazardous to health.",
+    "weight": "9 g",
+    "volume": "50 ml",
+    "price": "2 USD",
+    "price_postapoc": "5 USD",
+    "symbol": "!",
+    "color": "brown",
+    "stim": 1,
+    "healthy": -4,
+    "fun": 15,
+    "addiction_potential": 60,
+    "addiction_type": "nicotine",
+    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE", "NO_TEMP" ],
+    "use_action": [ "SMOKING" ],
+    "variants": [
+      {
+        "id": "handrolled",
+        "name": { "str": "hand-rolled cigar" },
+        "description": "A proper cigar rolled by hand from loose tobacco and leaves."
+      },
+      {
+        "id": "premium",
+        "name": { "str": "premium cigar" },
+        "description": "Select long-filler tobacco hand-rolled by a professional with care.  Smooth draw and even burn.  Now THIS is a real cigar!"
+      },
+      {
+        "id": "cheap",
+        "name": { "str": "cheap cigar" },
+        "description": "Cheap, machine-made cigar.  While not as luxurious as hand-rolled cigars, it's still enjoyable."
+      }
+    ]
+  },
+  {
+    "id": "tobacco",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "comestible_type": "MED",
+    "name": { "str_sp": "rolling tobacco" },
+    "description": "Loose, fine-cut tobacco leaves.  Popular in Europe and among hipsters.  Highly addictive and hazardous to health.\nCan either be rolled into a cigarette with some rolling papers or smoked through a pipe.",
+    "weight": "1 g",
+    "volume": "4 ml",
+    "price": "18 cent",
+    "price_postapoc": "75 cent",
+    "symbol": "!",
+    "color": "brown",
+    "container": "bag_plastic_small",
+    "stim": 1,
+    "healthy": -2,
+    "fun": 5,
+    "addiction_potential": 50,
+    "addiction_type": "nicotine",
+    "flags": [ "NO_INGEST", "NO_TEMP" ],
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You smoke some tobacco.",
+      "effects": [ { "id": "cig", "duration": 200 } ],
+      "stat_adjustments": { "hunger": -2, "thirst": 1 },
+      "fields_produced": { "fd_cigsmoke": 2 },
+      "charges_needed": { "fire": 1 },
+      "tools_needed": { "apparatus": -1 },
+      "moves": 250
+    }
+  },
+  {
+    "id": "handrolled_cig",
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "comestible_type": "MED",
+    "name": { "str": "hand-rolled cigarette" },
+    "description": "A roll-your-own cigarette.  Stimulates mental acuity and reduces appetite.  Despite being hand crafted, it's still highly addictive and hazardous to health.",
+    "weight": "1 g",
+    "volume": "4 ml",
+    "price": "1 cent",
+    "//": "Tougher to market a hand rolled, could be anything in there.",
+    "price_postapoc": "1 USD",
+    "symbol": "!",
+    "color": "dark_gray",
+    "stim": 1,
+    "healthy": -2,
+    "fun": 5,
+    "addiction_potential": 50,
+    "addiction_type": "nicotine",
+    "flags": [ "NO_INGEST", "NO_TEMP" ],
+    "use_action": [ "SMOKING" ]
+  }
+]

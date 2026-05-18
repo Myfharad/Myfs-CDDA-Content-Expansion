@@ -1,0 +1,47 @@
+[
+  {
+    "type": "ITEM",
+    "id": "material_rocksalt",
+    "category": "food",
+    "price": "50 cent",
+    "price_postapoc": "25 USD",
+    "name": { "str_sp": "rock salt" },
+    "symbol": "*",
+    "color": "light_gray",
+    "description": "A handful of rock salt crystals that have recently become valuable.  Could be refined into table salt, but can be also used as currency. ",
+    "material": [ "salt", "stone" ],
+    "volume": "3500 ml",
+    "weight": "650 g",
+    "melee_damage": { "bash": 1 }
+  },
+  {
+    "type": "ITEM",
+    "id": "material_goldore",
+    "category": "chems",
+    "price": "733 USD",
+    "price_postapoc": "8 USD",
+    "name": { "str_sp": "chunk of gold ore" },
+    "symbol": "*",
+    "color": "yellow",
+    "description": "A handful of rock salt crystals that have recently become valuable.  Could be refined into table salt, but can be also used as currency. ",
+    "material": [ "salt", "stone" ],
+    "volume": "3500 ml",
+    "weight": "650 g",
+    "melee_damage": { "bash": 1 }
+  },
+  {
+    "type": "ITEM",
+    "id": "material_copperore",
+    "category": "chems",
+    "price": "8 USD",
+    "price_postapoc": "8 USD",
+    "name": { "str_sp": "chunk of copper ore" },
+    "symbol": "*",
+    "color": "yellow",
+    "description": "A handful of rock salt crystals that have recently become valuable.  Could be refined into table salt, but can be also used as currency. ",
+    "material": [ "salt", "stone" ],
+    "volume": "3500 ml",
+    "weight": "650 g",
+    "melee_damage": { "bash": 1 }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Myf_CDDAExpansion",
+    "name": "Myf's CDDA Content Expansion",
+    "authors": [ "Myf" ],
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

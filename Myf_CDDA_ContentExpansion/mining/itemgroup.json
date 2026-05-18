@@ -1,0 +1,20 @@
+  {
+    "id": "mining_rock",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      { "item": "pebble", "count": [ 50, 100 ] },
+      { "item": "rock", "count": [ 200, 250 ] },
+      { "item": "rock_large", "count": [ 240, 260 ] },
+      { "item": "coal_lump", "charges": [ 2500, 5000 ], "prob": 10 },
+      { "item": "material_shrd_limestone", "count": [ 10, 25 ], "prob": 70 },
+      { "item": "material_rocksalt", "count": [ 0, 1 ], "prob": 25 },
+      { "item": "material_goldore", "count": [ 1, 5 ], "prob": 5 },
+      { "item": "material_copperore", "count": [ 2, 20 ], "prob": 15 },
+      { "item": "material_rhodonite", "count": [ 0, 1 ], "prob": 3 },
+      { "item": "material_zincite", "count": [ 0, 5 ], "prob": 5 },
+      { "item": "chunk_feldspar", "count": [ 10, 25 ], "prob": 50 },
+      { "item": "chunk_graphite", "count": [ 0, 2 ], "prob": 2 },
+      { "item": "chunk_caco3", "count": [ 0, 2 ], "prob": 60 }
+    ]
+  },

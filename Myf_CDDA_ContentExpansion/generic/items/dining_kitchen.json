@@ -1,0 +1,34 @@
+[
+  {
+    "id": "teabrick_mold",
+    "name": { "str": "tea brick mold" },
+    "category": "tools",
+    "description": "A tool used to create bricks of tea from tea leaves, useful for ease of transport, storage or trade",
+    "type": "ITEM",
+    "volume": "500 ml",
+    "weight": "200 g",
+    "symbol": ")",
+    "qualities": [ [ "SIEVE", 2 ], [ "WINNOW", 1 ], [ "STRAIN", 1 ] ],
+    "price": "6 USD",
+    "price_postapoc": "5 cent"
+  },
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "teabrick_black",
+    "name": { "str_sp": "tea brick (black tea)" },
+    "weight": "34 g",
+    "color": "green",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "calories": 50,
+    "description": "a small brick of tea often used for ease of carry or common currency.",
+    "price": "5 USD",
+    "price_postapoc": "20 USD",
+    "material": [ "veggy" ],
+    "primary_material": "dried_vegetable",
+    "volume": "44 ml",
+    "flags": [ "INEDIBLE", "NUTRIENT_OVERRIDE" ],
+    "vitamins": [ [ "veggy_allergen", 1 ] ]
+  }
+]
