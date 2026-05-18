@@ -6,7 +6,7 @@ From reworkings of value in the wasteland like the increase of post-apocolyptic 
 MCCE is a mod made to enhance some fun and bring back more roleplaying aspects to CDDA
 
 Features and Addtions added by MCCE:
-- Alchohol, Cigarettes, and some Tobacco related items now have adjusted prices to fit a post-apocolyptic market.
+- Alchohol (Whiskey only as of v1.0.0.), Cigarettes, and some Tobacco related items now have adjusted prices to fit a post-apocolyptic market.
 - Low-Grade Methamphetamine is now craftable
 - Tea Bricks are now craftable
 
